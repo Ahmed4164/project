@@ -2,9 +2,6 @@ import React from "react";
 import { useSnapCarousel } from "react-snap-carousel";
 import Vector from "../assets/taskweb/Vector.svg";
 import Vector1 from "../assets/taskweb/Vector1.svg";
-
-// https://github.com/richardscarrott/react-snap-carousel
-
 const styles = {
   root: {},
   scroll: {
