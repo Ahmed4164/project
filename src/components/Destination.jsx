@@ -106,23 +106,3 @@ const Card = styled.div`
 
 export default Destination;
 
-// import { Carousel, CarouselItem } from "./Carousel";
-// import "./styles.css";
-
-// const items = Array.from({ length: 20 }).map((_, i) => ({
-//   id: i,
-//   src: `https://picsum.photos/500?idx=${i}`
-// }));
-
-// const App = () => (
-//   <Carousel
-//     items={items}
-//     renderItem={({ item, isSnapPoint }) => (
-//       <CarouselItem key={item.id} isSnapPoint={isSnapPoint}>
-//         <img src={item.src} width="250" height="250" alt="Placeholder" />
-//       </CarouselItem>
-//     )}
-//   />
-// );
-
-// export default App;

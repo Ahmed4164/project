@@ -33,11 +33,7 @@ const SectionInner = styled.div`
   align-items: center;
   border-radius: 1.5rem;
 `;
-const ImageContainer = styled.div`
-
-`;
 const Image = styled.img`
-
   height: 8rem;
   border-radius: 50%;
   aspect-ratio: 1;
