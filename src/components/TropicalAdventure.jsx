@@ -79,16 +79,8 @@ const Section = styled.div`
   width: 85vw;
   padding-inline: 6%;
   margin-inline: auto;
-  /* border: 2px solid red; */
-  /* align-items: center; */
-  /* @media (max-width: 768px) {
-    flex-direction: column-reverse;
-  } */
   @media (max-width: 1200px) {
-    /* width: 34rem; */
-    /* border: 2px solid red; */
     padding: 0;
-    /* height: 52rem; */
   }
   @media (max-width: 840px) {
       flex-direction: column-reverse;
@@ -98,18 +90,11 @@ const Section = styled.div`
 
 `;
 const ContainerLeft = styled.div`
-  /* width: 60vw; */
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding: 10rem; */
-  /* @media (max-width: 768px) {
-    padding-top: 20rem;
-  } */
   @media (max-width: 992px) {
-      /* border: 2px solid red; */
       padding: 2rem;
     }
     @media (max-width: 840px) {
@@ -118,16 +103,9 @@ const ContainerLeft = styled.div`
   
 `;
 const ContainerRight = styled.div`
-  /* width: 63rem; */
-  /* height: 52rem; */
-  /* padding-inline-start: 10rem; */
-  /* border: 2px solid red; */
   position: relative;
   display: flex;
   padding: 4rem;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* padding-top: 12rem ; */
   flex-direction: column;
   @media (max-width: 840px) {
       padding-block: 5rem;
@@ -137,36 +115,21 @@ const ContainerRight = styled.div`
     font-size: 2rem;
   }
   .buttonContainer {
-    /* border: 2px solid red; */
     position: absolute;
-    /* top: 10rem; */
     bottom: 3rem;
-    /* @media (max-width: 768px) {
-      bottom: -10rem;
   } */
   @media (max-width: 1200px) {
-    /* width: 34rem; */
-    /* border: 2px solid red; */
     bottom: 0rem;
-    /* height: 52rem; */
   }
   }
   p {
     font-size: 5rem;
     @media (max-width: 1200px) {
-    /* width: 34rem; */
-    /* border: 2px solid red; */
     font-size: 3.5rem;
-    /* bottom: 0rem; */
-    /* height: 52rem; */
   }
     
   }
   .quote {
-    /* border: 2px solid red; */
-    /* padding-block: 1rem; */
-    /* position: absolute; */
-    /* bottom: 0; */
     h4 {
       font-size: 2rem;
       font-weight: 400;
@@ -174,8 +137,6 @@ const ContainerRight = styled.div`
   }
 
   .para {
-    /* border: 2px solid red; */
-    /* padding-block: 5rem; */
     h5 {
       font-size: 1.6rem;
       font-weight: 400;

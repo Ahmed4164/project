@@ -19,7 +19,7 @@ const Counter = ({ heading }) => {
         <div className="button1" onClick={() => Increment()}>
           <img src={Plus} alt="" srcset="" />
         </div>
-        {/* <input type="text" id="fname" name="firstname" placeholder={count} /> */}
+
         <div className="counterResult">
           <p>{count}</p>
         </div>
@@ -31,13 +31,13 @@ const Counter = ({ heading }) => {
   );
 };
 const Outer = styled.div`
-  /* border: 2px solid blue; */
+
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
 
   .input {
-    /* border: 2px solid red; */
+
     border-radius: 2rem;
     display: flex;
     background-color: rgba(243, 243, 243, 1);
@@ -45,14 +45,14 @@ const Outer = styled.div`
       width: 100%;
       padding: 2rem;
       background-color: rgba(243, 243, 243, 1);
-      /* border: 2px solid red; */
+
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .counterResult{
-        /* border:2px solid red; */
+
         width: 100%;
         height: 100%;
         padding-block: 1.5rem;
@@ -70,7 +70,7 @@ const Outer = styled.div`
     border-bottom-left-radius: 2rem;
     border-top-left-radius: 2rem;
     background: #ebebeb;
-    /* border: 1px solid; */
+
     align-self: center;
   }
   .button2 {
@@ -79,7 +79,6 @@ const Outer = styled.div`
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
     background: #ebebeb;
-    /* border: 1px solid; */
     align-self: center;
   }
   input[type="text"],
@@ -106,21 +105,6 @@ const Outer = styled.div`
     letter-spacing: 0.5836576223373413px;
     text-align: left;
   }
-
-  /* input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-} */
 `;
 
 export default Counter;

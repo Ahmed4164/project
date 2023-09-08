@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-// const Section = styled.div`
-//   background-color: lightgoldenrodyellow;
-//   height: 50vh;
-//   scroll-snap-align: center;
-// `;
 
 const Footer = () => {
   return (
@@ -83,7 +78,6 @@ const Footer = () => {
   );
 };
 const Section = styled.section`
-  /* border: 2px solid red; */
   padding-inline: 6%;
   .navbar {
     display: flex;
@@ -91,10 +85,7 @@ const Section = styled.section`
     align-items: center;
     padding-block: 1rem;
     padding-inline: 3rem;
-    /* border: 2px solid red; */
-    margin: 5rem;
-    @media (max-width: 540px) {
-      /* border: 2px solid red; */
+    margin: 5rem; 540px) {
       flex-direction: column;
       padding-block: 0rem;
       padding-inline: 0rem;
@@ -108,18 +99,13 @@ const Section = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      /* border: 2px solid blue; */
       ul {
-        /* border: 1px solid; */
         padding: 1rem;
         @media (max-width: 540px) {
           padding: 0.3rem;
         }
         li {
-          /* border: 1px solid blue; */
           .navlink {
-            /* border: 1px solid red; */
-            /* padding: 2rem; */
             color: ${({ theme }) => theme.colors.navtext};
           }
         }
@@ -129,33 +115,20 @@ const Section = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      /* border: 2px solid green; */
       .courses {
-        /* background-color: ${({ theme }) => theme.colors.btn_bg};
-        border-radius: 1.5rem;
-        width: 10rem;
-        display: flex;
-        justify-content: center;
-        align-items: center; */
         padding: 0;
       }
       ul {
-        /* border: 1px solid; */
         padding: 1rem;
         @media (max-width: 540px) {
           padding: 0.3rem;
         }
         li {
-          /* border: 1px solid blue; */
 
           .navlink {
-            /* border: 1px solid red; */
-            /* padding: 2rem; */
             color: ${({ theme }) => theme.colors.txt_dim};
           }
           .navlink2 {
-            /* border: 1px solid red; */
-            /* padding: 2rem; */
             color: ${({ theme }) => theme.colors.white_txt};
           }
         }

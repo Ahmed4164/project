@@ -17,7 +17,6 @@ const Discounts = () => {
           <p className="sub">Get ready for some fun in the sun!</p>
         </div>
         <div className="para">
-          {/* <h5>Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum integer rutrum nisi. A nec nisl vitae</h5> */}
           <li>Lorem ipsum dolor, sit amet</li>
           <li>Lorem ipsum dolor, sit amet</li>
           <li>consectetur adipisicing elit. Dducimus?</li>
@@ -36,15 +35,10 @@ const Discounts = () => {
 };
 const Section = styled.div`
   background-color: #fff;
-  /* height: 100vh; */
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
   padding-inline: 6%;
-  /* align-items: center; */
-  /* @media (max-width: 768px) {
-    flex-direction: column;
-  } */
   @media (max-width: 840px) {
     flex-direction: column-reverse;
     justify-content: center;
@@ -52,11 +46,8 @@ const Section = styled.div`
   }
   @media (max-width: 540px) {
     margin-top: 5rem;
-  }
 `;
 const ContainerLeft = styled.div`
-  /* width: 60vw; */
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,18 +61,12 @@ const ContainerLeft = styled.div`
   }
 `;
 const ContainerRight = styled.div`
-  /* width: 63rem; */
-  /* height: 52rem; */
   padding-inline-start: 10rem;
-  /* border: 2px solid red; */
   position: relative;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   padding-block: 12rem;
   flex-direction: column;
   @media (max-width: 840px) {
-    /* border: 2px solid red; */
     padding-inline: 4rem;
     margin-bottom: 4rem;
     padding-block: 6rem;
@@ -95,16 +80,10 @@ const ContainerRight = styled.div`
     font-size: 2.5rem;
   }
   .buttonContainer {
-    /* border: 2px solid red; */
     position: absolute;
-    /* top: 10rem; */
     bottom: 17rem;
-    /* @media (max-width: 768px) {
-      bottom: -10rem;
-      } */
     @media (max-width: 1200px) {
       bottom: 0;
-      /* height: 52rem; */
     }
   }
   p {
@@ -112,10 +91,6 @@ const ContainerRight = styled.div`
     font-weight: 700;
   }
   .quote {
-    /* border: 2px solid red; */
-    /* padding-block: 1rem; */
-    /* position: absolute; */
-    /* bottom: 0; */
     h4 {
       font-size: 2rem;
       font-weight: 400;
@@ -123,8 +98,6 @@ const ContainerRight = styled.div`
   }
 
   .para {
-    /* border: 2px solid red; */
-    /* padding-block: 5rem; */
     h5 {
       font-size: 1.6rem;
       font-weight: 400;

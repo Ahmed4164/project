@@ -5,8 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    ${'' /* overflow-x: hidden; */}
+    font-family: 'Poppins', sans-serif; 
 };
 html{
     font-size: 62.5%;
@@ -36,14 +35,6 @@ letter-spacing: 0em;
 text-align: left;
 
 
-${'' /* 
-font-family: Inter;
-font-size: 80px;
-font-weight: 500;
-line-height: 100px;
-letter-spacing: 0em;
-text-align: left; */}
-
 }
 h3{
     ${'' /* font-family: Inter; */}
@@ -70,26 +61,6 @@ li{
         font-size: 55%;
     }
   }
-  ${'' /* @media (max-width: 1024px) {
-    html{
-        font-size: 60%;
-    }
-  } */}
-  ${'' /* @media (max-width: 375px) {
-    html{
-        font-size: 40%;
-    }
-  } */}
-  ${'' /* @media (max-width: 320px) {
-    html{
-        font-size: 30%;
-    }
-  } */}
-   ${'' /* @media (max-width: 320px) {
-    html{
-        font-size: 30%;
-    }
-  } */}
    @media (max-width: 492px) {
     html{
         font-size: 25%;

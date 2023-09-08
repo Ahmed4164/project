@@ -9,13 +9,11 @@ const items = Array.from({ length: 20 }).map((_, i) => ({
   src: `https://picsum.photos/500?idx=${i}`,
 }));
 const Section = styled.div`
-  /* background-color: lightslategrey; */
   height: 100vh;
   scroll-snap-align: center;
   padding-inline: 6%;
   .header{
     padding: 2rem;
-    /* border: 2px solid red; */
     h2{
       @media (max-width: 768px) {
       font-size: 3.5rem;
@@ -61,7 +59,6 @@ const Destination = () => {
 };
 
 const Card = styled.div`
-  /* border: 2px solid red; */
   border-radius: 2rem;
   margin: 2rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0rem .7rem 2.9rem 0rem;
@@ -75,15 +72,9 @@ const Card = styled.div`
     }
   }
   .bottom {
-    /* border: 2px solid blue; */
     .name {
-      /* border: 2px solid red; */
-      /* width:  360px; */
-      /* height: 83px; */
       padding: 2.5rem;
-      /* gap: 10px; */
       h3 {
-        //styleName: Headline extra bold / h4;
         font-family: Roboto;
         font-size: 2.3rem;
         font-weight: 900;
@@ -93,7 +84,6 @@ const Card = styled.div`
       }
     }
     .address{
-      /* border: 2px solid green; */
       display: flex;
       justify-content: space-between;
       align-items: center;

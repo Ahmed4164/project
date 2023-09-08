@@ -65,17 +65,13 @@ const Testimonials = () => {
 };
 const Section = styled.div`
   background-color: pink;
-  /* height: 50vh; */
   scroll-snap-align: center;
   background-color: #fff;
-  /* border: 2px solid red; */
   margin-top: 12rem;
 
   .header {
     width: 100%;
-    /* text-align: center; */
     align-content: center;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     padding-top: 2rem;
@@ -87,16 +83,7 @@ const Section = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
-    flex-wrap: wrap;
-    padding-inline:9rem;
-    align-items: center; */
     margin-bottom: 25rem;
-    /* @media (max-width: 768px) {
-      flex-direction: column;
-    } */
     @media (max-width: 840px) {
       flex-direction: column-reverse;
       justify-content: center;
@@ -125,7 +112,6 @@ const Section = styled.div`
     align-items: center;
     flex-direction: column;
     padding-block: 2rem;
-    /* border: 2px solid red; */
     img {
       width: 10rem;
       height: 10rem;
@@ -151,7 +137,6 @@ const Section = styled.div`
     color: ${({ theme }) => theme.colors.txt_light};
   }
   .bottom {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +146,6 @@ const Section = styled.div`
           
         }
     .inner {
-      /* border: 2px solid blue; */
       width: 60%;
       @media (max-width: 580px) {
         width: 80%;
@@ -170,17 +154,12 @@ const Section = styled.div`
         width: 90%;
         }
         h3{
-          /* @media (max-width: 480px) {
-            font-size: 3rem;
-        } */
         }
       .text {
         width: 50%;
         text-align: center;
         padding-block: 3rem;
-        /* border: 2px solid red; */
         margin: auto;
-        /* margin-top: 3rem; */
         @media (max-width: 580px) {
         width: 70%;
         }

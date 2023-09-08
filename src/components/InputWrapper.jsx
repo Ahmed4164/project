@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 
 const InputWrapper = ({ heading, place }) => {
   return (
-    // <div>
     <Outer className="fields">
       <div className="header">
         <h5>{heading}</h5>
@@ -12,16 +11,13 @@ const InputWrapper = ({ heading, place }) => {
         <input type="text" id="fname" name="firstname" placeholder={place} />
       </div>
     </Outer>
-    // </div>
   );
 };
 const Outer = styled.div`
-  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   .input {
-    /* border: 2px solid red; */
     input {
       width: 100%;
       background-color: rgba(243, 243, 243, 1);
@@ -52,20 +48,6 @@ h5{
     text-align: left;
 
 }
-  /* input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-} */
 `;
 
 export default InputWrapper;

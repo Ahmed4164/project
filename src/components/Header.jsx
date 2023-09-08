@@ -66,7 +66,6 @@ const Header = () => {
                 <NavLink className="navlink1" to="/">
                   offers
                 </NavLink>
-              </li>
             </ul>
             <ul className="courses">
               <li>
@@ -83,7 +82,6 @@ const Header = () => {
 };
 
 const Section = styled.section`
-  /* border: 2px solid red; */
   padding-inline: 6%;
   padding-block: 2rem;
   overflow: hidden;
@@ -104,24 +102,18 @@ const Section = styled.section`
       display: flex;
       padding-left: 15%;
       ul {
-        /* border: 1px solid; */
         padding: 1rem;
         li {
-          /* border: 1px solid blue; */
           .navlink {
-            /* border: 1px solid red; */
             padding-inline: 1.5rem;
             color: ${({ theme }) => theme.colors.navtext};
           }
         }
       }
       @media (max-width: 992px) {
-      /* padding-block: 0rem; */
       padding-left: 0%;
   }
   @media (max-width: 798px) {
-      /* padding-block: 0rem; */
-      /* padding-left: 0%; */
       display: none;
       .hamburger{
         display: block;
@@ -138,29 +130,18 @@ const Section = styled.section`
       justify-content: center;
       align-items: center;
       .courses {
-        /* background-color: ${({ theme }) => theme.colors.btn_bg};
-        border-radius: 1.5rem;
-        width: 10rem;
-        display: flex;
-        justify-content: center;
-        align-items: center; */
         padding: 0;
 
       }
       ul {
-        /* border: 1px solid; */
         padding: 1rem;
         li {
-          /* border: 1px solid blue; */
 
           .navlink1 {
-            /* border: 1px solid red; */
             padding-inline: 2rem;
             color: ${({ theme }) => theme.colors.txt_dim};
           }
           .navlink2 {
-            /* border: 1px solid red; */
-            /* padding: 2rem; */
             color: ${({ theme }) => theme.colors.white_txt};
           }
         }

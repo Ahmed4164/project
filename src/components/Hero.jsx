@@ -45,12 +45,8 @@ const Hero = () => {
   );
 };
 const Section = styled.div`
-  /* height: 90vh; */
   padding-inline: 6%;
-  /* border: 2px solid red; */
-  /* width: 80vw; */
   background-color: ${({ theme }) => theme.colors.hero_background};
-  /* scroll-snap-align: center; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,8 +55,6 @@ const Section = styled.div`
   }
 `;
 const ContainerLeft = styled.div`
-  /* border: 2px solid red; */
-  /* width: 50%; */
   width: 63rem;
   height: 52rem;
   position: relative;
@@ -68,11 +62,6 @@ const ContainerLeft = styled.div`
     height: 62rem;
   }
   @media (max-width: 992px) {
-    /* border: 2px solid red; */
-    /* width: 30rem; */
-    /* width: 53rem; */
-    /* height: 52rem; */
-    /* font-size: 3rem; */
   }
   @media (max-width: 892px) {
     width: 53rem;
@@ -89,41 +78,29 @@ const ContainerLeft = styled.div`
     height: 55rem;
   }
   @media (max-width: 492px) {
-    /* border: 2px solid red; */
-    /* width: 53rem;
-    height: 55rem; */
     h1{
-      /* border: 2px solid red; */
       font-size: 6rem;
     }
     h2{
-      /* border: 2px solid red; */
       font-size: 4rem;
     }
     h4{
-      /* border: 2px solid red; */
     }
     h5{
-      /* border: 2px solid red; */
     }
   }
   @media (max-width: 375px) {
-    /* border: 2px solid red; */
     width: 95%;
     height: 60rem;
     h1{
-      /* border: 2px solid red; */
       font-size: 5rem;
     }
     h2{
-      /* border: 2px solid red; */
       font-size: 4rem;
     }
     h4{
-      /* border: 2px solid red; */
     }
     h5{
-      /* border: 2px solid red; */
     }
   }
 
@@ -176,8 +153,7 @@ const ContainerRight = styled.div`
     @media (max-width: 768px) {
       /* border: 2px solid red; */
       width: 34rem;
-    }
-
+    
     @media (max-width: 992px) {
       /* border: 2px solid red; */
       /* width: 30rem; */
