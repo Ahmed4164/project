@@ -170,7 +170,7 @@ const Section = styled.div`
         width: 90%;
         }
         @media (max-width: 480px) {
-          border: 2px solid blue;
+          // border: 2px solid blue;
         width: 90%;
           padding-inline: 1rem;
           font-size: 1rem;
