@@ -92,6 +92,8 @@ const ContainerLeft = styled.div`
     /* border: 2px solid red; */
     /* width: 53rem;
     height: 55rem; */
+    width: 95%;
+    height: 60rem;
     h1{
       /* border: 2px solid red; */
       font-size: 6rem;
