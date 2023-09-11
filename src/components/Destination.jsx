@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Carousel, CarouselItem } from "./Carousel.jsx";
-import "./styles.css";
+// import "./styles.css";
 import Icons from "../assets/Icons.png";
 
 const items = Array.from({ length: 20 }).map((_, i) => ({
