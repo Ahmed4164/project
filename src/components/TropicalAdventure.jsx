@@ -115,7 +115,16 @@ const ContainerLeft = styled.div`
     @media (max-width: 840px) {
       margin-bottom: 2rem;
     }
-  
+  @media (max-width: 492px) {
+      padding-block: 2rem;
+      padding-inline: 0;
+      flex-wrap: wrap;
+  }
+  @media (max-width: 392px) {
+      padding-block: 2rem;
+      padding-inline: 0;
+      flex-wrap: wrap;
+  }
 `;
 const ContainerRight = styled.div`
   /* width: 63rem; */
