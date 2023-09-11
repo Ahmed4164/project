@@ -57,6 +57,9 @@ const Section = styled.div`
   @media (max-width: 1200px) {
     // flex-direction: column;
   }
+  @media (max-width: 798px) {
+    flex-direction: column;
+  }
 `;
 const ContainerLeft = styled.div`
   /* border: 2px solid red; */
