@@ -65,7 +65,7 @@ const ContainerLeft = styled.div`
   height: 52rem;
   position: relative;
   @media (max-width: 1200px) {
-    height: 62rem;
+    // height: 62rem;
   }
   @media (max-width: 992px) {
     /* border: 2px solid red; */
@@ -75,8 +75,8 @@ const ContainerLeft = styled.div`
     /* font-size: 3rem; */
   }
   @media (max-width: 892px) {
-    width: 53rem;
-    height: 62rem;
+    // width: 53rem;
+    // height: 62rem;
     font-size: 2.5rem;
   }
   @media (max-width: 768px) {
@@ -190,7 +190,7 @@ const ContainerRight = styled.div`
     }
     @media (max-width: 540px) {
       /* border: 2px solid red; */
-      width: 28rem;
+      /* width: 28rem; */
       height: 32rem;
     }
   }
