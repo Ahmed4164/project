@@ -55,7 +55,7 @@ const Section = styled.div`
   justify-content: space-between;
   align-items: center;
   @media (max-width: 1200px) {
-    flex-direction: column;
+    // flex-direction: column;
   }
 `;
 const ContainerLeft = styled.div`
