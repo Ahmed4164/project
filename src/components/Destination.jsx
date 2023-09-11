@@ -10,7 +10,7 @@ const items = Array.from({ length: 20 }).map((_, i) => ({
 }));
 const Section = styled.div`
   /* background-color: lightslategrey; */
-  height: 100vh;
+  // height: 100vh;
   scroll-snap-align: center;
   padding-inline: 6%;
   .header{
