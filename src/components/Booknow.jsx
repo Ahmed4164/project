@@ -102,6 +102,9 @@ const ContainerRight = styled.div`
     .content {
       padding-bottom: 3rem;
     }
+  @media (max-width: 492px) {
+    width: 95%;
+  }
   }
   h5 {
     color: ${({ theme }) => theme.colors.txt_light};
