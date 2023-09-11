@@ -161,18 +161,37 @@ const Section = styled.div`
           
         }
     .inner {
-      /* border: 2px solid blue; */
+     
       width: 60%;
-      @media (max-width: 580px) {
-        width: 80%;
-        }
-        @media (max-width: 480px) {
+      @media (max-width: 760px) {
         width: 90%;
         }
+      @media (max-width: 580px) {
+        width: 90%;
+        }
+        @media (max-width: 480px) {
+          border: 2px solid blue;
+        width: 90%;
+          padding-inline: 1rem;
+          font-size: 1rem;
+        }
         h3{
-          /* @media (max-width: 480px) {
+          @media (max-width: 480px) {
             font-size: 3rem;
-        } */
+            /* font-size: 4rem; */
+            font-weight: 600;
+            line-height: 3.8rem;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        @media (max-width: 380px) {
+            font-size: 2rem;
+            /* font-size: 4rem; */
+            font-weight: 600;
+            line-height: 2.8rem;
+            letter-spacing: 0em;
+            text-align: center;
+        }
         }
       .text {
         width: 50%;
@@ -182,7 +201,7 @@ const Section = styled.div`
         margin: auto;
         /* margin-top: 3rem; */
         @media (max-width: 580px) {
-        width: 70%;
+        width: 90%;
         }
         h4 {
           font-size: 1.6rem;
