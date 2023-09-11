@@ -25,6 +25,10 @@ const SectionOuter = styled.div`
   align-items: center;
   border-radius: 1.5rem;
   padding-inline: 2rem;
+  @media (max-width: 392px) {
+    width: 30rem;
+    height: 12rem;
+  }
 `;
 const SectionInner = styled.div`
   border: .2rem solid green;
